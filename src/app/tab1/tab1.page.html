@@ -1,17 +1,17 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
       Tab 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+ 
+<ion-content>
+  <h1>
+    Welcome User
+  </h1>
+  <h2>
+    What do you want to get done today?
+  </h2>
+  <ion-button expand="full" (click)="logout()">Logout</ion-button>
 </ion-content>
